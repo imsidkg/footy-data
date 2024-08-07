@@ -8,6 +8,7 @@ type Props = {};
 
 interface League {
   id: number;
+
   name: string;
   logo: string;
 }
