@@ -58,7 +58,7 @@ const Page = (props: Props) => {
             <div
               key={country.code}
               className="flex flex-col items-center m-4 cursor-pointer"
-              onClick={() => router.push(`/league?country=${country.name}`)}
+              onClick={() => router.push(`/league/${country.name}`)}
             >
               <img
                 src={country.flag}
